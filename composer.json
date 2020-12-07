@@ -1,17 +1,17 @@
 {
-    "name": ":vendor_name/:package_name",
-    "description": ":package_description",
+    "name": "whitehatdevelop/api-response-code",
+    "description": "Codigos de respuesta API personalizados",
     "keywords": [
-        ":vendor_name",
-        ":package_name"
+        "whitehatdevelop",
+        "whitehatdevelop/api-response-code"
     ],
-    "homepage": "https://github.com/:vendor_name/:package_name",
+    "homepage": "https://github.com/whitehatdevelop/api-response-code",
     "license": "MIT",
     "authors": [
         {
-            "name": ":author_name",
-            "email": ":author_email",
-            "homepage": "https://spatie.be",
+            "name": ":Álvaro Barrera",
+            "email": "jorgealvarobarreravasquez@gmail.com",
+            "homepage": "https://codecix.com",
             "role": "Developer"
         }
     ],
@@ -46,7 +46,7 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Spatie\\Skeleton\\SkeletonServiceProvider"
+                "ApiResponseServiceProvider"
             ],
             "aliases": {
                 "Skeleton": "Spatie\\Skeleton\\SkeletonFacade"
